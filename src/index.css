@@ -21,7 +21,8 @@
   /* 寬高 */
   width: 50%;
   height: 200px;
+  position: relative;
 
+  transform: translate(60%, -50%);
   /* 外框 */
-  border: 1px solid #000;
 }
