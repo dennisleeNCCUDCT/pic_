@@ -1,0 +1,27 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+.box {
+  width: 100vw;
+  height: 80vh;
+}
+/* 父容器 */
+.section {
+  display: flex;
+  /* 水平置中 */
+  justify-content: center;
+  /* 垂直置中 */
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+/* 目標容器 */
+.section-middle {
+  /* 寬高 */
+  width: 50%;
+  height: 200px;
+
+  /* 外框 */
+  border: 1px solid #000;
+}
