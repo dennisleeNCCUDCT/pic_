@@ -1,6 +1,5 @@
 import { Canvas } from "@react-three/fiber";
 import { Experience } from "./components/Experience";
-import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,7 +14,8 @@ function App() {
           <color attach="background" args={["#ececec"]} />
           <Experience />s
         </Canvas>
-      </div>{" "}
+      </div>
+      <Footer />
     </div>
   );
 }
